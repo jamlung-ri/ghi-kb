@@ -11,10 +11,14 @@
             "id": "5b2c65d2bdf8fd30",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "df.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "df"
             }
           }
         ]
@@ -90,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "df.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for df"
             }
           },
           {
@@ -108,11 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "df.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from df"
             }
           },
           {
@@ -150,12 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "df.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of df"
             }
           },
           {
@@ -188,8 +195,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5b2c65d2bdf8fd30",
+  "active": "9481bb724509fda9",
   "lastOpenFiles": [
+    "df.md",
     "Untitled.canvas",
     "transcripts/2026-03-25_CBMI, GHI and Standards Team_txt.txt.md",
     "meeting summaries/2026-03-25_CBMI, GHI and Standards Team_summary.txt.md",

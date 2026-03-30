@@ -1,0 +1,193 @@
+{
+  "main": {
+    "id": "2b639fb1952faee5",
+    "type": "split",
+    "children": [
+      {
+        "id": "436bc08bd88d61fc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "065c0b5a82e2c1e5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "transcripts/2026-03-25_CBMI, GHI and Standards Team_txt.txt.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2026-03-25_CBMI, GHI and Standards Team_txt.txt"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0e24615815be76ad",
+    "type": "split",
+    "children": [
+      {
+        "id": "370f5e34d61b419a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "226435a883e951b0",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "2ba724fc14535afb",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "1cbcccf7faf546e8",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "abd2dbbe85da77da",
+    "type": "split",
+    "children": [
+      {
+        "id": "075f908d23e28c8c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "70f21b84feac3b34",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "transcripts/2026-03-25_CBMI, GHI and Standards Team_txt.txt.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 2026-03-25_CBMI, GHI and Standards Team_txt.txt"
+            }
+          },
+          {
+            "id": "3b33225205d0a39e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "transcripts/2026-03-25_CBMI, GHI and Standards Team_txt.txt.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 2026-03-25_CBMI, GHI and Standards Team_txt.txt"
+            }
+          },
+          {
+            "id": "30b91da2aa741840",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "4ffbd0a1afb068df",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "59ac77a76ab52fce",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "transcripts/2026-03-25_CBMI, GHI and Standards Team_txt.txt.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 2026-03-25_CBMI, GHI and Standards Team_txt.txt"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "065c0b5a82e2c1e5",
+  "lastOpenFiles": [
+    "meeting summaries/2026-03-25_CBMI, GHI and Standards Team_summary.txt.md",
+    "transcripts/2026-03-25_CBMI, GHI and Standards Team_txt.txt.md",
+    "meeting summaries",
+    "transcripts"
+  ]
+}

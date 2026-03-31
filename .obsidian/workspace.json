@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "073968510bef282a",
+        "id": "6563037016b29260",
         "type": "tabs",
         "children": [
           {
-            "id": "5b2c65d2bdf8fd30",
+            "id": "cda32020509281e5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "meeting summaries/2026-03-25_CBMI, GHI and Standards Team_summary.txt.md",
-                "mode": "source",
-                "source": false
+                "aFile": "kb/GHI Capability Statement - Base.docx.md",
+                "bFile": "kb/GHI Capability Statement - Base.docx.md",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "2026-03-25_CBMI, GHI and Standards Team_summary.txt"
+              "icon": "diff",
+              "title": "Diff: GHI Capability Statement - Base.docx  (Working Tree)"
             }
           }
         ]
@@ -94,7 +94,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "meeting summaries/2026-03-25_CBMI, GHI and Standards Team_summary.txt.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 2026-03-25_CBMI, GHI and Standards Team_summary.txt"
+              "title": "Backlinks"
             }
           },
           {
@@ -113,12 +112,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "meeting summaries/2026-03-25_CBMI, GHI and Standards Team_summary.txt.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 2026-03-25_CBMI, GHI and Standards Team_summary.txt"
+              "title": "Outgoing links"
             }
           },
           {
@@ -156,13 +154,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "meeting summaries/2026-03-25_CBMI, GHI and Standards Team_summary.txt.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2026-03-25_CBMI, GHI and Standards Team_summary.txt"
+              "title": "Outline"
             }
           },
           {
@@ -195,12 +192,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "226435a883e951b0",
+  "active": "cda32020509281e5",
   "lastOpenFiles": [
-    "kb/GHI Capability Statement - Base.docx.md",
+    "kb/LOINC-colab/Collaboration Ideas.md",
+    "kb/GHI-capabilities/GHI Capability Statement - Base.docx.md",
+    "kb/LOINC-colab",
+    "kb/GHI-capabilities",
+    "meeting summaries/2026-03-25_CBMI, GHI and Standards Team_summary.txt.md",
     "kb",
     "transcripts/2026-03-25_CBMI, GHI and Standards Team_txt.txt.md",
-    "meeting summaries/2026-03-25_CBMI, GHI and Standards Team_summary.txt.md",
     "df.md",
     "Untitled.canvas",
     "meeting summaries",

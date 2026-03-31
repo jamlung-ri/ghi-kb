@@ -1,0 +1,11 @@
+- Establish a regular meeting
+- Inventory of assets
+- Consulting opportunities
+    - World bank
+    - IHIE
+    - ZIMAM
+- How to work across the groups
+- Business model for training (need to frame this for Rachel so it doesn’t “Compete” with IU)
+    - Up skilling people
+    - Micro credentials / professional competency development
+    - Need to know how we tell these stories

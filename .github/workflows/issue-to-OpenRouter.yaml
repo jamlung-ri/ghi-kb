@@ -16,7 +16,7 @@ jobs:
         env:
           ANTHROPIC_BASE_URL: ${{ secrets.ANTHROPIC_BASE_URL }}
           ANTHROPIC_API_KEY: ""
-          ANTHROPIC_MODEL: "OpenRouter/free"  # swap this to test different models
+          ANTHROPIC_MODEL: "deepseek/deepseek-r1:free"  # swap this to test different models
         with:
           anthropic_api_key: ${{ secrets.OPENROUTER_API_KEY }}
           direct_prompt: |

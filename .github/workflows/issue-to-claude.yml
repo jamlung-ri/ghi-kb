@@ -1,0 +1,22 @@
+name: KB synthesis
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  synthesize:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+      issues: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: anthropics/claude-code-action@v1
+        with:
+          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+          direct_prompt: |
+            A new meeting transcript has been posted as a GitHub issue.
+            Read the issue body, scan the /projects and /people folders
+            for relevant files, and open a pull request proposing updates.
+            Follow the instructions in CLAUDE.md for how to structure changes.

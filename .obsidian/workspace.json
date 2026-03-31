@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "6563037016b29260",
+        "id": "a49307d96b8defce",
         "type": "tabs",
         "children": [
           {
-            "id": "cda32020509281e5",
+            "id": "1571720e5fcd5873",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "kb/GHI Capability Statement - Base.docx.md",
-                "bFile": "kb/GHI Capability Statement - Base.docx.md",
-                "aRef": ""
+                "file": "kb/GF-SAfrica-TA/South Africa - Digital Health TA Proposal.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: GHI Capability Statement - Base.docx  (Working Tree)"
+              "icon": "lucide-file",
+              "title": "South Africa - Digital Health TA Proposal"
             }
           }
         ]
@@ -188,12 +188,14 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "github-sync:Sync with Remote": false,
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cda32020509281e5",
+  "active": "1571720e5fcd5873",
   "lastOpenFiles": [
+    "kb/Untitled.md",
+    "kb/GF-SAfrica-TA/South Africa - Digital Health TA Proposal.md",
+    "kb/GF-SAfrica-TA",
     "kb/LOINC-colab/Collaboration Ideas.md",
     "kb/GHI-capabilities/GHI Capability Statement - Base.docx.md",
     "kb/LOINC-colab",

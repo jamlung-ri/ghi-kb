@@ -1,0 +1,37 @@
+name: KB synthesis
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  synthesize:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+      issues: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run Claude via OpenRouter
+        id: claude
+        uses: anthropics/claude-code-action@v1
+        env:
+          ANTHROPIC_BASE_URL: ${{ secrets.ANTHROPIC_BASE_URL }}
+          ANTHROPIC_API_KEY: ""
+          ANTHROPIC_MODEL: "openrouter/free"
+        with:
+          anthropic_api_key: ${{ secrets.OPENROUTER_API_KEY }}
+          direct_prompt: |
+            A meeting transcript has been posted as issue #${{ github.event.issue.number }}.
+            Title: ${{ github.event.issue.title }}
+            Read the issue body, follow CLAUDE.md, and open a pull
+            request proposing changes to the knowledge base.
+
+      - name: Notify Slack
+        if: always()
+        run: |
+          curl -s -X POST "${{ secrets.SLACK_WEBHOOK_URL }}" \
+            -H "Content-Type: application/json" \
+            -d "{\"text\": \"KB update ready for review: ${{ github.server_url }}/${{ github.repository }}/pulls\"}"

@@ -20,7 +20,7 @@ jobs:
         env:
           ANTHROPIC_BASE_URL: ${{ secrets.ANTHROPIC_BASE_URL }}
           ANTHROPIC_API_KEY: ""
-          ANTHROPIC_MODEL: "openrouter/free"
+          ANTHROPIC_MODEL: "deepseek/deepseek-r1:free"
         with:
           anthropic_api_key: ${{ secrets.OPENROUTER_API_KEY }}
           direct_prompt: |
